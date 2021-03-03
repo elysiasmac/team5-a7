@@ -38,11 +38,6 @@ app.get('/', index.view);
 // Example route
 // app.get('/users', user.list);
 
-//login route
-app.get('/', function (req, res) {
-  res.render("index");
-});
-
 //login route 
 app.get('/index', function (req, res) {
   res.render("index");
