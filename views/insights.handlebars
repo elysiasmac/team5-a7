@@ -21,18 +21,15 @@
             <!--<h3> &nbsp </h3>  -->
             <h2> Main Distractors </h2>
             <h4> <ul>
+                {{#each Notes}}
                 <li> {{Distractors}} </li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>iMessage</li>
-                <li>Youtube</li>
-                <li>Flappy Bird</li>
+                {{/each}}
             </ul></h4>
         </div>
             <h2>Advice</h2>
-             <h4> <li>Lorem ipsum dolor sit amet,  elit, sed do eiusmod tempor incididunt ut labore et dolore </li>
-              <li>Lorem ipsum dolor sit amet,  elit, sed do eiusmod tempor incididunt ut labore </li>
-             </h4>
+            {{#each Notes}}
+            <li> {{Advice}} </li>
+            {{/each}}
             
         </div>
         <div class="small-button">
