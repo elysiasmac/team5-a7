@@ -1,0 +1,45 @@
+<html>
+<head>
+	<link rel="stylesheet" href="/css/website.css" >
+    <link rel ="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <style>
+        body{
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+	<title>Home</title>
+
+    <script type="text/javascript" src="/js/currentsession.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="homepage"><h4>Back<h4></a>
+        <h1>Current Session</h1>
+    </div>
+    <div class="sesh_type">
+        <button type="button">Timer</button>
+        <button type="button">Stopwatch</button>
+    </div>
+    <div class="container">
+
+        <div class="display">
+             <div id="sw-time">00:00:00</div>
+            
+        </div>
+        <div class = "buttons">
+            <input type="button" value="Start" id="sw-go" disabled />
+            <input type="button" value="Reset" id="sw-rst" disabled />
+        </div>
+        <div class="small-button">
+            <a href="reflections"><p>End Session</p></a></button>
+        </div>
+        
+       
+
+    </div>
+</body>
+
+{{!--   <div class="buttons">
+            <button id="pause">Pause</button><button id="end"><a href="reflections">End</a></button>
+        </div> 
+--}}

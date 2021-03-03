@@ -1,0 +1,240 @@
+/* TYPE */
+h1{
+	font-family: "Inter", sans-serif;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 96px;
+	text-align: center;
+	}
+
+h2{
+	font-family: "Inter", sans-serif;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 72px;
+	text-align: left;
+	}
+
+h3{
+	font-family: "Inter", sans-serif;
+	font-weight: medium;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: left;
+}
+
+h4{
+	font-family: "Inter", sans-serif;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: left;
+}
+
+h5{
+	font-family: "Inter", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 54px;
+	text-align: left;
+}
+
+p{
+	font-family: "Inter", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 54px;
+	text-align: center;
+	color: white;
+}
+
+.container{
+	padding: 40px;
+}
+
+.display{
+	font-size: 160px;
+	text-align: center;
+	/*padding-top: 500px;
+	padding-bottom: 500px; */
+	font-family: Inter;
+
+	border: 8px solid #000000;
+	border-radius: 50%;
+	width: 800px;
+	height: 800px;
+	line-height: 800px;
+	z-index: 1000;
+
+}
+
+
+/* BUTTONS */
+.big-button{
+	text-align: center;
+}
+
+.start{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 880px;
+	height: 120px;
+	font-size: 36px;
+
+}
+
+.submit{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 880px;
+	height: 120px;
+	font-size: 36px;
+
+}
+
+#pause{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+
+}
+
+#end{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+	margin-left: 80px;
+
+}
+#sw-go{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+
+}
+
+#sw-rst{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+	margin-left: 80px;
+
+}
+
+.buttons{
+	margin-top: 200px;
+	text-align: center;
+	color: #096171;
+}
+
+.sesh_type{
+	text-align: center;
+}
+
+
+.sesh_type button{
+	border: 1px;
+	outline: none;
+	cursor: pointer;
+	padding: 16px 32px;
+	transition: 0.3s;
+	width: 400px;
+	height: 120px;
+	font-size: 36px;
+	font-weight: medium;
+	margin-bottom: 200px;
+}
+
+
+
+body{
+	padding: 40px;
+}
+
+.graph2{
+    display: block;
+    width:880px; /* you can use % */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+	border-style: solid;
+	border-radius: 12px;
+	border-collapse: separate;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin-top: 16px;
+}
+
+.socials-time{
+	display: block;
+	float: right;
+}
+
+.social-icon{
+	display: block;
+	float:left;
+	clear: both;
+	margin-bottom: 80px;
+}
+
+.social-icon{
+	width: 160px;
+	height: auto;
+	
+}
+
+/* BUTTONS */
+.small-button{
+	border: 1px solid;
+	border-radius: 8px;
+	background-color: #096171;
+	margin: 64px 16px;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	clear: both;
+}
+
+.a:active, a:link, a:visited{
+	text-decoration:none;
+	color: black;
+}
+
+
+.session-buttons{
+	border: 1px solid;
+	border-radius: 8px;
+	margin: 16px 0px;
+	padding: 16px 32px;
+	text-align: center;
+}
+
+.question_form{
+	text-align: center;
+}
+
+.slider{
+	padding-bottom: 32px;
+	text-align: center;
+}
+
+.timeline{
+	text-align: center;
+}

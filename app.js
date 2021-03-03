@@ -38,6 +38,62 @@ app.get('/', index.view);
 // Example route
 // app.get('/users', user.list);
 
+//login route
+app.get('/', function (req, res) {
+  res.render("index");
+});
+
+//login route 
+app.get('/index', function (req, res) {
+  res.render("index");
+});
+
+// homepage
+app.get('/homepage', function (req, res) {
+  res.render("homepage");
+});
+
+//current session route 
+app.get('/currentsession', function (req, res) {
+  res.render('currentsession');
+});
+
+//past session selector route
+app.get('/pastsession_selector', function (req, res) {
+  res.render('pastsession_selector');
+});
+
+//past session overview route
+app.get('/pastsession_overview', function (req, res) {
+  res.render('pastsession_overview');
+});
+
+//past session details route
+app.get('/pastsession_details', function (req, res) {
+  res.render('pastsession_details');
+});
+
+//reflections route
+app.get('/reflections', function (req, res) {
+  res.render('reflections');
+});
+
+//sessionsummary route
+app.get('/sessionsummary', function (req, res) {
+  res.render('sessionsummary');
+});
+
+//insights route
+app.get('/insights', function (req, res) {
+  res.render('insights');
+});
+
+//timer route
+app.get('/timer', function (req, res) {
+  res.render('timer');
+});
+
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
