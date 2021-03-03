@@ -1,0 +1,223 @@
+/* TYPE */
+h1{
+	font-family: Inter;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 96px;
+	text-align: center;
+	}
+
+h2{
+	font-family: Inter;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 72px;
+	text-align: left;
+	}
+
+h3{
+	font-family: Inter;
+	font-weight: medium;
+	font-size: 1px;
+	line-height: 56px;
+	text-align: left;
+}
+
+h4{
+	font-family: Inter;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 90px;
+	text-align: left;
+	padding-left: 45px;
+	padding-right: 25px;
+}
+h5{
+	position: absolute;
+	width: 417px;
+	height: 90px;
+	left: 111px;
+	top: 858px;
+
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 75px;
+	line-height: 91px;
+	text-align: center;
+
+	color: #000000;
+
+}
+h6{
+	position: absolute;
+	width: 417px;
+	height: 90px;
+	left: 111px;
+	top: 1224px;
+
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 75px;
+	line-height: 91px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.container{
+	padding: 40px;
+}
+
+.display{
+	font-size: 160px;
+	text-align: center;
+	/*padding-top: 500px;
+	padding-bottom: 500px; */
+	font-family: Inter;
+
+	border: 8px solid #000000;
+	border-radius: 50%;
+	width: 800px;
+	height: 800px;
+	line-height: 800px;
+	z-index: 1000;
+
+}
+.logo{
+	position: absolute;
+	width: 483px;
+	height: 483px;
+	left: 321px;
+	top: 380px;
+	color: white;
+
+	/*background: #C4C4C4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+  .circle {
+      width: 483px;
+      height: 483px;
+      border-radius: 250px;
+      border-radius: 250px;
+      border-radius: 250px;
+      background: gray;
+      position: absolute;
+      left: 321px;
+      top: 236px;
+    }
+
+  .line{
+		position: absolute;
+		width: 785px;
+		height: 0px;
+		left: 165px;
+		top: 1180px;
+
+		border: 3px solid #000000;
+	}
+.line2{
+		position: absolute;
+		width: 785px;
+		height: 0px;
+		left: 165px;
+		top: 1566px;
+
+		border: 3px solid #000000;
+	}
+
+/* BUTTONS */
+.big-button{
+	text-align: center;
+}
+
+.start{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 880px;
+	height: 120px;
+	font-size: 36px;
+
+}
+
+#pause{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+
+}
+
+#end{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+	margin-left: 80px;
+
+}
+
+.buttons{
+	margin-top: 200px;
+	text-align: center;
+}
+
+.sesh_type{
+	text-align: center;
+}
+
+
+.sesh_type button{
+	border: 1px;
+	outline: none;
+	cursor: pointer;
+	padding: 16px 32px;
+	transition: 0.3s;
+	width: 400px;
+	height: 120px;
+	font-size: 36px;
+	font-weight: medium;
+	margin-bottom: 200px;
+}
+.su-button{
+	position: absolute;
+	width: 885px;
+	height: 200px;
+	left: 111px;
+	top: 1827px;
+
+	/*background: #C4C4C4;
+	box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;*/
+	}
+
+.home-button{
+	position: absolute;
+	width: 885px;
+	height: 200px;
+	left: 111px;
+	top: 2027px;
+
+	/*background: #C4C4C4;
+	box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;*/
+	}
+
+
+body{
+	padding: 40px;
+}
+
+.graph2{
+    display: block;
+    width:880px; /* you can use % */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
