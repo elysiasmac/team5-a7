@@ -1,5 +1,8 @@
 <html>
 <head>
+    <script src="/js/introHCI.js"></script>
+    {{> facebook}}
+    <script src="/js/facebook.js"></script>
 	<title>Login Page</title>
 	<link rel="stylesheet" href="/css/website.css" >
     <link rel ="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
@@ -11,22 +14,31 @@
 </head>
 <body>
 	<div>
-        <div class="question_form">
-            <h4> Username </h4>
-            <textarea name="textbox" rows="1" cols="100">
-            </textarea>
+        <div class="img">
+            <img class="logo" src="/images/logo-1.png" alt="Logo">
         </div>
-         	
-        <div class="question_form">
-            <h4> Password </h4>
-            <textarea name="textbox" rows="1" cols="100">
-            </textarea>
+        <form>
+            <label for="Username"><h4>Username</h4></label><br>
+            <input type = "text"><br>
+        </form>
+        <form>
+            <label for="Password"><h4>Password</h4></label><br>
+            <input type="text"><br>
+        </form>
+
+         <div class="small-button" id="log-in-button">
+            <a href="homepage"><p>Sign up</p></a>
         </div>
 
-         <div class="big-button">
-            <button type="button" class="submit"><a href="homepage"><h4>Sign up</h4></a></button>
+        <div class="facebook-button">
+            <h4 class="facebookLogin">
+                Log in through Facebook <br>
+                <div class="actual-facebook">
+                    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+                    </fb:login-button>
+                </div>
+            </h4>
         </div>
-
     </div>
 </body>
 </html>
