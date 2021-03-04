@@ -37,7 +37,7 @@ function timer(){
         s.value = 59;
         m.value--;
     } else if(h.value != 0 && m.value == 0){
-        m.value = 60;
+        m.value = 59;
         h.value--;
     }
     return;

@@ -238,3 +238,56 @@ body{
 .timeline{
 	text-align: center;
 }
+
+/*Timer Style*/
+
+#start{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+
+}
+
+#reset{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+	margin-left: 80px;
+
+}
+
+#container{
+	white-space: nowrap; 
+	display: inline-block; 
+}
+
+#hour-label{
+	font-family: "Inter", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 54px;
+	text-align: center;
+	color: black; 
+}
+#min-label{
+	font-family: "Inter", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 54px;
+	text-align: center;
+	color: black; 
+}
+#sec-label{
+	font-family: "Inter", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 54px;
+	text-align: center;
+	color: black;
+}

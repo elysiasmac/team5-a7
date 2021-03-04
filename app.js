@@ -88,6 +88,10 @@ app.get('/timer', function (req, res) {
   res.render('timer');
 });
 
+//countdown route
+app.get('/countdown', function (req, res) {
+  res.render('countdown');
+});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
