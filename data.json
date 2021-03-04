@@ -7,6 +7,14 @@
         {
             "Distractors": "Facebook",
             "Advice": "Put app on 'Do not disturb' mode since you are receiving too many notifications."
+        },
+        {
+            "Distractors": "Instagram",
+            "Advice": "Put app on 'Do not disturb' mode since you are receiving too many notifications."
+        }, 
+        {
+            "Distractors": "Facebook",
+            "Advice": "Put app on 'Do not disturb' mode since you are receiving too many notifications."
         }
     ]
 }
