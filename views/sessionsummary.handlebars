@@ -7,7 +7,15 @@
             font-family: "Inter", sans-serif;
         }
     </style>
-	<title>Session Summary</title>
+    <title>Session Summary</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("h7").html("You received 28 iMessage notifications. Muting this application can help minimize distractions!");
+            });
+        });
+    </script>
 </head>
 <body>
     <div>
@@ -19,12 +27,15 @@
             <img class="graph2" src= "/images/graph.png" alt = "summary_graph">
         </div>
         <div class="insights">
-            <h3>Insights</h3>
+            <a href ="insights"><h3>Insights ></h3> </a>
+            <div class="link-toggle"></div>
+            </div>
             <div class="card">
-                <h4> You received 28 iMessage notifications. Muting this application can help minimize distractions!</h4>
-                <div class="see-more">
-                    <a href="insights"><h5>See More</h5></a>
+                     <h7> You received 28 iMessage notifications...</h7>
+                <div>
+                     <button id ="Seemore">See more</button>
                 </div>
+               
             </div>
         </div>
         <div class="socials">
@@ -50,14 +61,3 @@
 </body>
 </html>
 
-
-
-{{!-- 
-<div>
-    <h3>Most Used Apps</h3>
-</div>
-<div class="socials">
-    <p>{{app_name}}</p>
-    <p>{{minutes}}</p>
-</div> 
---}}

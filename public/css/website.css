@@ -42,6 +42,12 @@ p{
 	color: white;
 }
 
+h7{
+	font-family: "Inter", sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	text-align: left;
+}
 
 .container{
 	padding: 40px;
@@ -139,6 +145,12 @@ p{
 	color: #096171;
 }
 
+#Seemore{
+	width: 150px;
+	height: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 .sesh_type{
 	text-align: center;
 }
@@ -175,6 +187,7 @@ body{
 	border-style: solid;
 	border-radius: 12px;
 	border-collapse: separate;
+	padding-top: 50px; 
 	padding-left: 32px;
 	padding-right: 32px;
 	margin-top: 16px;
