@@ -63,6 +63,9 @@ p{
 
 }
 
+.app-title{
+	text-align: center;
+}
 
 /* BUTTONS */
 .big-button{
@@ -341,15 +344,17 @@ textarea{
 	line-height: 54px;
 	text-align: center;
 	color: black;
-/* IMAGES */
-.logo{
-	display: block;
-	width: 50%;
-	height: auto;
-	margin-top: 96px;
-	margin-left: auto;
-	margin-right: auto;
 }
+
+/* IMAGES */
+
+.logo{
+	height: auto;
+	margin-top: 124px;
+	margin: auto;
+	text-align: center;
+}
+
 
 
 .see-more{
