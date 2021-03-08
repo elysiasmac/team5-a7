@@ -3,9 +3,7 @@
     <link rel="stylesheet" href="/css/website.css" >
     <link rel ="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     <style>
-        body{
-            font-family: "Inter", sans-serif;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
     </style>
     <title>Session Summary</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -20,14 +18,14 @@
 <body>
     <div>
         <div class="header">
-            <a href="reflections"><h4>Back</h4></a>
-            <h1>Session Summary</h1>
+            <a href="reflections"><img class="arrow-left" src="/images/chevron-left-lg.png"/></a>
+            <h1 class="main-title">Session Summary</h1>
         </div>
         <div class="img">
             <img class="graph2" src= "/images/graph.png" alt = "summary_graph">
         </div>
         <div class="insights">
-            <a href ="insights"><h3>Insights ></h3> </a>
+            <h3>Insights <a href="insights"><img src="/images/chevron-right-lg.png"/></a></h3>
             <div class="link-toggle"></div>
             </div>
             <div class="card">
