@@ -2,36 +2,29 @@
     <link rel="stylesheet" href="/css/website.css" >
     <link rel ="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     <style>
-        body{
-            font-family: "Inter", sans-serif;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
     </style>
     <title>Home</title>
 </head>
 
 <body>
-    <div>
-        <div class="logout">
-             <a href="index"><h4>Log Out<h4></a>
-        </div>
-        <div class="header">
-            <h1> Home</h1>
-            <h2> Hi Karen! </h2>
-            <h5> Today is Monday, February 15, 2021 </h5>
-        </div>
-        <div class="small-button">
-            <a href="currentsession"><p>Start Session</p></a></button>
-        </div>
-        <div class="graph">
-            <a href="pastsession_selector"><h2>This Week's Summary ></h2> </a>
-            <div class="img">
-                <img class="graph2" src="/images/graph.png" alt="graph">
-            </div>
-        </div>
-        <div class="socials">
-            <h2>Most Used Apps</h2>
-            <img class="graph2" src="/images/socials.png" alt="socials">
+    <div class="header">
+        <a class="arrow-left" href="index"><img src="/images/log-out.png"/></a>         
+        <h1 class="main-title">Home</h1>
+        <h2> Hi Karen! </h2>
+        <h2> Today is Monday, February 15 </h2>
+    </div>
+    <div class="small-button">
+        <a href="currentsession"><p>Start Session</p></a></button>
+    </div>
+    <div class="graph">
+        <h2>This Week's Summary  <a href="pastsession_selector"><img src="/images/chevron-right-lg.png"/></a></h2>
+        <div class="img">
+            <img class="graph2" src="/images/graph.png" alt="graph">
         </div>
     </div>
-
+    <div class="socials">
+        <h2>Most Used Apps</h2>
+        <img class="graph2" src="/images/socials.png" alt="socials">
+    </div>
 </body>
